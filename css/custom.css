@@ -430,7 +430,7 @@ p.postDesc span{
 }
 
 #aboutModalContent {
-  background-image: url(http://localhost/china-dev/data/all/picture_airpollution_67.jpg);
+  background-image: url(http://data-action.github.io/chinas-own-lens/data/all/picture_airpollution_67.jpg);
 }
 
 .fa-angle-double-right {
@@ -488,4 +488,8 @@ p.postDesc span{
 
 .navbar-default .navbar-collapse {
   background-color: #333;
+}
+
+a.item.link:hover {
+  color: #fff;
 }
