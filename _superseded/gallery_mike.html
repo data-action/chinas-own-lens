@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weibo China</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="China - CDDL">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.css"/>
+  <link rel="stylesheet" href="lib/MarkerCluster.css"/>
+  <link rel="stylesheet" href="lib/owl.carousel.css">
+  <link rel="stylesheet" href="lib/owl.theme.css">
+  <link rel="stylesheet" href="css/custom.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project Name/Logo Here</a><br>
+          <p class="navbar-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Map</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="checkboxes">
+      <form>
+        <label><input id="showAll" type="radio" name="pollutiondata" value="showAll" checked><span>Show All</span></label><br>
+        <hr>
+        <!-- <label><input id="activeChimney" type="checkbox" name="pollutiondata" value=""><span>#activeChimney</span></label> -->
+        <label><input id="airPollution" type="radio" name="pollutiondata" value="airpollution"><span>#airPollution</span></label><br>
+        <label><input id="algalBloom" type="radio" name="pollutiondata" value="algalBloom"><span>#algalBloom</span></label><br>
+        <!-- <label><input id="haze" type="checkbox" name="pollutiondata" value=""><span>#haze</span></label>
+        <label><input id="pm25" type="checkbox" name="pollutiondata" value=""><span>#pm25</span></label> -->
+        <label><input id="pollution" type="radio" name="pollutiondata" value="pollution"><span>#pollution</span></label>
+        <!-- <label><input id="pollutionPics" type="checkbox" name="pollutiondata" value=""><span>#pollutionPics</span></label>
+        <label><input id="smog" type="checkbox" name="pollutiondata" value=""><span>#smog</span></label>
+        <label style="margin-right: 0px;"><input id="yellowDust" type="checkbox" name="pollutiondata" value=""><span>#yellowDust</span></label> -->
+      </form>
+    </div>
+    <div id="gallery">
+    </div>
+  <footer class="footer" id="footerContainer">
+    <div class="container">
+      <p id="footer-text" class="text-muted"><a href="http://data-action.github.io">Data Action Blog</a> &copy;2015</p>
+      <div id="cddl-logo">
+        <a href="http://www.civicdatadesignlab.org/"><img src="img/cddl-white.png" alt="CDDL"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.js"></script>
+  <script src="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js"></script>
+  <script src="lib/leaflet.markercluster.js"></script>
+  <script src="lib/owl.carousel.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
