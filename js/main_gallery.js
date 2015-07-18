@@ -109,7 +109,7 @@ var populateImageElements = function(features) {
 	$(".imageContainer img").lazyload({
 	    event : 'scroll',
 	    effect : "fadeIn",
-	    threshold:200,
+	    threshold:100,
 
 	    load:function(a,b,c){
 	
