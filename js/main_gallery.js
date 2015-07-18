@@ -84,7 +84,7 @@ var populateImageElements = function(features) {
 
 		// only lazy load after the first N	
 		var imgSrcAttr;
-		if (index < 20) { //temp turn off lazy load
+		if (index < 30) { //temp turn off lazy load
 			imgSrcAttr = "src='" + fileName + "'";
 			
 		} else {
