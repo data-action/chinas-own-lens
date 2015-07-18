@@ -1,6 +1,6 @@
 var testdata = null;
 var $container = null;
-var picsPerPage = 30;
+var picsPerPage = 10;
 var $body = $("body");
 
 $(document).ajaxStart(function() {
