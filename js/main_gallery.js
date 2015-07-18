@@ -88,7 +88,8 @@ var populateImageElements = function(features) {
 			imgSrcAttr = "src='" + fileName + "'";
 			
 		} else {
-		 	imgSrcAttr = "data-original='" + fileName + "'";
+			imgSrcAttr = "src='" + fileName + "'";
+		 	// imgSrcAttr = "data-original='" + fileName + "'";
 		}
 		
 		var extraAttribs = value.properties.City + " " + value.properties.Category + " " + value.properties.Index + "' id=" + value.properties.Index;
